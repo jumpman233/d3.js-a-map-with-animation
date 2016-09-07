@@ -1,0 +1,69 @@
+body{
+    font-family: "Microsoft YaHei","宋体","Arial",sans-serif;
+    font-size:12px !important;
+    color:white;
+    background:url('../image/background.png')0 0 no-repeat;
+    background-size: 100%;
+    border-color: #000000;
+}
+.headline{
+    margin-top:20px;
+}
+.headline .text-center .head{
+    padding:5px 60px;display:inline-block;background-image: url('../image/headline.png');background-size:100%;
+}
+.headline .text-center .head-supplement{
+    font-size:18px;
+    /*color:#EEF0F0*/
+    color:#0DADD3;
+    font-weight:bold;
+    /*color:#0089EB;*/
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.display-map{
+    margin-top: 100px;
+    height: 750px;
+    width:100%;
+}
+.display-info{
+    color:#DEE8E8;
+}
+.attacker-all tr td,.safeEvent tr td,.loophole tr td,.safeEvent tr td{
+    color:#ADB4B4;
+    padding-top:6px;
+}
+.attacker-all tr td:last-child,.attacker-all tr td:nth-child(2),.loophole tr td:nth-child(2){
+    padding-left:16px;
+}
+.attacker-all tr td:first-child,.loophole tr td:first-child{
+    color:#0090B2;
+}
+.loophole tr td:last-child{
+    float:right;
+}
+.padding-city{
+    padding-top:10px !important;
+}
+#attackOne,#attackCityOne{
+    color:#FA900D;
+}
+#attackTwo,#attackCityTwo{
+    color:#FAB10A;
+}
+#attackThree,#attackCityThree{
+    color:#FADB0D;
+}
+#attackedOne,#attackedCityOne{
+    color:#1E90FF;
+}
+#attackedTwo,#attackedCityTwo{
+    color:#00BFFF;
+}
+#attackedThree,#attackedCityThree{
+    color:#00F5FF;
+}
